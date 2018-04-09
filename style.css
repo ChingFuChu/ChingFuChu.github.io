@@ -33,11 +33,33 @@ img {
   padding-top: 55px;
   padding-right: 30px;
   text-align: center;
+  float: right;
 }
 
 .nav h4 {
   -webkit-margin-before: 0;
   margin-left: 30px;
+}
+
+.nav h4:active {
+  top: 2px;
+}
+
+.nav li {
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+  padding: 8px 18px;
+  font-size: 1rem;
+}
+
+.nav li:active {
+  top: 2px;
+}
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 ul {
@@ -63,10 +85,13 @@ ul {
   -webkit-margin-before: 0;
   padding-top: 40px;
   padding-left: 30px;
+  text-align: center;
 }
-
-.main video {
-  padding-left: 30px;
+.main h3 {
+  text-align: center;
+}
+.main h4 {
+  text-align: center;
 }
 
 .main p {
@@ -77,10 +102,20 @@ ul {
 
 .main a {
   color: inherit;
-  padding-left: 30px;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 .main a:hover {
   text-decoration: underline;
+}
+
+.item {
+  margin: 20px;
+  text-align: center;
+}
+.item img {
+  margin: 2px;
+  border: 10px dashed #FFF;
+  padding: 10px;
 }
