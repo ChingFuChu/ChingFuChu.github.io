@@ -87,12 +87,6 @@ ul {
   padding-left: 30px;
   text-align: center;
 }
-.main h3 {
-  text-align: center;
-}
-.main h4 {
-  text-align: center;
-}
 
 .main p {
   padding-left: 30px;
@@ -100,12 +94,8 @@ ul {
   min-width: 550px;
 }
 
-.main a {
-  color: inherit;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.main a:hover {
-  text-decoration: underline;
+.main video {
+  margin: 2px;
+  border: 10px dashed #FFF;
+  padding: 10px;
 }
