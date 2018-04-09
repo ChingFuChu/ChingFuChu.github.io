@@ -119,3 +119,14 @@ ul {
   border: 10px dashed #FFF;
   padding: 10px;
 }
+.item p {
+  padding-left: 30px;
+  width: 55%;
+  min-width: 550px;
+}
+
+.item video {
+  margin: 2px;
+  border: 10px dashed #FFF;
+  padding: 10px;
+}
